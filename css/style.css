@@ -1,0 +1,233 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#header {
+    background: url("../img/bg\ banner.png")center/cover;
+    height: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    width: 110%;
+}
+.menu-icon{
+    display: none;
+    cursor: pointer;
+    color: #c8235d;
+    overflow: hidden;
+    float: right;
+}
+.navbar-click{
+    transform: translate(210px);
+    width: 120px;
+    transition: 0.7s;
+}
+.navbar-click ul li a{
+    font-size: 20px;
+    transition: 0.5s;
+}
+.navbar-click ul li a:hover{
+    font-size: 25px;
+    color: #962323;
+    font-weight: 700;
+}
+.navbar-click ul li{
+    padding: 5px;
+}
+.menu-icon i{
+    font-size: 30px;
+}
+.logo {
+    color: white;
+    font-size: 30px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar ul li {
+    padding: 0 30px;
+}
+ul li a {
+    color: white;
+}
+.center-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 200px 0;
+}
+.center-text h1 {
+    font-size: 60px;
+    line-height: 32px;
+}
+.center-text p {
+    text-align: center;
+    width: 90%;
+    line-height: 25px;
+    margin: 40px auto;
+}
+.our-story-bg {
+    background-color: #962323;
+    height: 100%;
+}
+.our-story {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 0;
+    color: white;
+    text-align: center;
+}
+.our-story h1 {
+    font-size: 40px;
+    font-family: "Forever Brush Script";
+}
+.our-story p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+}
+hr {
+    width: 20%;
+}
+.our-story .story-img {
+    width: 40%;
+}
+.our-story .story-img img {
+    width: 100%;
+    box-shadow: 0px 0px 10px 1px black;
+}
+.story-text {
+    width: 50%;
+}
+.singatures-recipes {
+    background: url("../img/bg.png")center/cover;
+    height: 100%;
+}
+.singatures-text {
+    text-align: center;
+    color: white;
+    width: 640px;
+    margin: auto;
+    padding: 120px;
+}
+.singatures-text h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: "Forever Brush Script";
+}
+.singatures-text hr {
+    border: 1px solid #c8235d;
+}
+.singatures-text p {
+    line-height: 25px;
+    font-family: "Proxima Nova A";
+    text-align: center;
+    letter-spacing: 1px;
+}
+.our-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.bg {
+    background-color: #f3f4f7;
+}
+.our {
+    font-size: 56px;
+    color: #0b0c0d;
+    text-align: center;
+    font-family: "Forever Brush Script";
+    padding-top: 70px;
+}
+.red {
+    border: 1px solid #c8235d;
+    width: 10%;
+}
+.item {
+    width: 40%;
+    margin: 25px 0;
+}
+.item h1 {
+    font-weight: 600;
+    text-align: center;
+}
+.item span {
+    color: #c8235d;
+    float: right;
+    width: 10%;
+}
+.item p {
+    padding: 10px 0;
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+}
+.burger {
+    display: flex;
+    overflow: hidden;
+    height: 250px;
+}
+.footer-bg {
+    background-color: #252529;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    padding: 40px 0;
+}
+.footer-first{
+    width: 20%;
+}
+.footer-first h1{
+    font-size: 30px;
+    padding: 50px 0;
+}
+.footer-first p{
+line-height: 25px;   
+font-size: 14px; 
+}
+.footer-second{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.footer-second .footer-item{
+width: 45%;
+}
+.footer-item h1{
+    padding: 60px 0;
+    font-size: 18px;
+}
+.footer-item p{
+line-height: 25px;   
+font-size: 14px; 
+}
+.footer-end-bg{
+    background-color: #16171b;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 30px 0;
+}
+.footer-end a{
+    color: gray;
+    font-size: 14px;
+}
+i{
+    width:30px;
+}
