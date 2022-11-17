@@ -39,6 +39,7 @@
     .footer-first {
         margin: 0 auto;
         text-align: center;
+        width: 100%;
     }
     .footer-first p {
         width: 100%;
@@ -70,8 +71,14 @@
     }   
 }
 @media screen and (max-width:768px) {
+    #header{
+        height: 300px;
+    }
     .navbar{
         display: none;
+    }
+    .center-text{
+        width: 100%;
     }
     .menu-icon{
         display: block;
@@ -83,12 +90,17 @@
         display: inherit;
         padding: 20px;
     }
+    .our-story p{
+        line-height: 20px;
+        padding: 0;
+    }
     .story-img{
         margin: auto;
         padding: 10px;
     }
     .story-text{
         margin: auto;
+        width: 100%;
     }
     .singatures-text{
         padding: 20px;
@@ -99,9 +111,20 @@
     }
     .item {
         width: 100%;
+    }.footer-first {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-first p {
+        width: 100%;
     }
     .footer-second{
         flex-wrap: wrap;
+        width: 100%;
+    }
+    .footer-second .footer-item{
+        width: 50%;
     }
     .footer-end h3,p{
         width: 100%;

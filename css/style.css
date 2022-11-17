@@ -18,7 +18,10 @@
     cursor: pointer;
     color: #c8235d;
     overflow: hidden;
-    float: right;
+    transform: translate(90%,-120%);
+}
+.menu-icon i{
+    padding-left: 50px;
 }
 .navbar-click{
     transform: translate(210px);
