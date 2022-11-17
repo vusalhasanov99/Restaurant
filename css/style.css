@@ -16,17 +16,21 @@
 .menu-icon{
     display: none;
     cursor: pointer;
-    color: #c8235d;
-    overflow: hidden;
-    transform: translate(80%,-120%);
-}
-.menu-icon i{
-    padding-left: 50px;
-}
-.navbar-click{
-    transform: translate(210px);
-    width: 120px;
+    color: white;
+    position: absolute;
+   right: 0px;
+   top: 25px;
+    padding-left: 30px;
     transition: 0.7s;
+    border-radius: 10px;
+    height: 41%;
+    overflow: hidden;
+}
+
+.navbar-click{
+    transform: translate(2010px);
+    transition: 0.7s;
+    overflow: hidden;
 }
 .navbar-click ul li a{
     font-size: 20px;
@@ -34,7 +38,6 @@
 }
 .navbar-click ul li a:hover{
     font-size: 25px;
-    color: #962323;
     font-weight: 700;
 }
 .navbar-click ul li{
